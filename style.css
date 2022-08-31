@@ -1,0 +1,108 @@
+body {
+    font-size: 16px;
+    width: 100%;
+    color: #838383
+}
+
+/* Typography */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: .5s ease;
+}
+
+main {
+    width: 700px;
+    margin: 0 auto;
+    border: 2px solid #252525;
+}
+
+span {
+    color: #68a800;
+}
+
+button {
+    font-size: inherit;
+    font-weight: 500;
+    background: #68a800;
+    border: 1px solid #68a800;
+    outline: none;
+    border-radius: 3px;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: none;
+    color: #252525;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 150px;
+}
+
+.heading {
+    border-top: 1px solid #838383;
+    border-bottom: 1px solid #838383;
+    padding: 20px 0px;
+}
+
+
+/* Header */
+header {
+    height: 400px;
+    background: #252525;
+    color: #838383;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+header img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 6px solid white;
+}
+
+/* Hero Section  */
+
+.hero_section {
+    height: 475px;
+}
+
+/* Projects */
+.project_section {
+    height: 475px;
+    background: #252525;
+    gap: 20px;
+    padding-top: 70px;
+}
+
+.project_section h3 {
+    color: white;
+}
+
+.project_section a {
+    color: #68a800;
+}
+
+.project_section button:hover{
+    color: #838383;
+}
+
+/* Footer */
+footer{
+    height: 50px;
+    text-align: center;
+    padding: 20px 0px;
+}
